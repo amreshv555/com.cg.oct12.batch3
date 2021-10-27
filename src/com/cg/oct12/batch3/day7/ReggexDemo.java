@@ -6,7 +6,8 @@ import java.util.regex.Pattern;
 public class ReggexDemo {
 
 	public static void main(String[] args) {
-		String regex="[a-z]", input="abc";
+		
+		String regex="[a-z]", input="bcgh";
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(input);
 		
