@@ -20,7 +20,7 @@ public class App {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int num1 = sc.nextInt();
-		System.out.println("Enter another     number to divide:");
+		System.out.println("Enter another number to divide:");
 		int num2 = sc.nextInt();
 		try {
 			System.out.println(num1 / num2);
